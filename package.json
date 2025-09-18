@@ -1,0 +1,24 @@
+{
+  "name": "image-watermark",
+  "version": "1.0.0",
+  "description": "Watermark your images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ManasUpadhyay13/image-watermark.git"
+  },
+  "keywords": [
+    "image",
+    "watermark",
+    "canvas"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManasUpadhyay13/image-watermark/issues"
+  },
+  "homepage": "https://github.com/ManasUpadhyay13/image-watermark#readme"
+}
