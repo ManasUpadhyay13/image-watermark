@@ -1,5 +1,5 @@
 {
-  "name": "react-image-watermark",
+  "name": "react-image-watermark-pro",
   "version": "1.0.0",
   "type": "module",
   "description": "A React component for adding watermarks to images using canvas rendering",

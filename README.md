@@ -15,7 +15,7 @@ A React component for adding watermarks to images using canvas rendering. This c
 ## Installation
 
 ```bash
-npm install react-image-watermark
+npm install react-image-watermark-pro-pro
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm install react-image-watermark
 
 ```tsx
 import React from "react";
-import { ImageWatermark } from "react-image-watermark";
+import { ImageWatermark } from "react-image-watermark-pro";
 
 const App = () => {
   return (
@@ -49,7 +49,7 @@ const App = () => {
 
 ```tsx
 import React from "react";
-import { ImageWatermark } from "react-image-watermark";
+import { ImageWatermark } from "react-image-watermark-pro";
 
 const App = () => {
   return (
@@ -175,81 +175,3 @@ npm run build
 1. Build the package: `npm run build`
 2. In your test project: `npm install /path/to/react-image-watermark`
 3. Import and use the component
-
-## Publishing to NPM
-
-### First Time Setup
-
-1. **Create NPM account**: Sign up at [npmjs.com](https://www.npmjs.com)
-
-2. **Login to NPM**:
-
-   ```bash
-   npm login
-   ```
-
-3. **Update package.json**:
-
-   - Ensure the `name` is unique (check npmjs.com)
-   - Set the correct `version`
-   - Add your details to `author`
-
-4. **Build the package**:
-
-   ```bash
-   npm run build
-   ```
-
-5. **Publish**:
-   ```bash
-   npm publish
-   ```
-
-### Updating the Package
-
-1. **Update version** in `package.json`:
-
-   ```bash
-   npm version patch  # for bug fixes
-   npm version minor  # for new features
-   npm version major  # for breaking changes
-   ```
-
-2. **Build and publish**:
-   ```bash
-   npm run build
-   npm publish
-   ```
-
-### Testing Your Published Package
-
-1. **Create a test project**:
-
-   ```bash
-   npx create-react-app test-watermark
-   cd test-watermark
-   ```
-
-2. **Install your package**:
-
-   ```bash
-   npm install react-image-watermark
-   ```
-
-3. **Use in your app**:
-   ```tsx
-   import { ImageWatermark } from "react-image-watermark";
-   // ... use the component
-   ```
-
-## License
-
-MIT
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
